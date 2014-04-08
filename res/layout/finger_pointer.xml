@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="50dp"
+    android:layout_height="50dp" >
+    
+   <ImageView 
+       android:id="@+id/pointerImage"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:src = "@drawable/yellow_point"/>
+   
+   <TextView 
+       android:id="@+id/fingerNumber"
+       android:layout_width = "50dp"
+       android:layout_height = "50dp"
+       android:textColor="#FFFFFFFF"
+       android:textStyle="bold"
+       android:textSize="34sp"
+       android:layout_centerInParent="true"
+       
+       />
+    
+    
+    
+    
+</RelativeLayout>
